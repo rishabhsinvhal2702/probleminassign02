@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Numbered Puzzle</title>
+    <link rel="stylesheet" href="gamepage.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <section id="mypage">
+        <nav class="game-options">
+            <a href="#" class="option new-game select-trans">New Game</a>
+            <a href="#setting-popup" class="option setting select-trans">Setting</a>
+            <a href="#" class="option pause select-trans">Pause</a>
+        </nav>
+
+        <div class="game-point">
+            <p class="gamet select-trans">Game Type</p>
+            <p class="gamep1 select-trans">Timer</p>
+            <p class="gamep2 select-trans">Count</p>
+        </div>
+
+        <div class="helping-container">
+            <div class="container">
+            </div>
+        </div>
+    </section>
+
+    <section class="setting-popup" id="setting-popup">
+
+        <div class="content">
+            <div class="specs">
+                <h1 class="box-spec height select-trans">Height : <span class="h-value select-trans"></span></h1>
+                <h1 class="box-spec width select-trans">Width : <span class="w-value select-trans"></span></h1>
+                <h1 class="box-spec select-trans">Freeze</h1>
+            </div>
+            <a href="#mypage" class="cancel-popup select-trans">&#10006;</a>
+        </div>
+
+    </section>
+
+    <section class="win-popup"></section>
+
+    <script src='kaamkichiz.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
